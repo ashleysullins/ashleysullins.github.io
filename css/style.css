@@ -64,7 +64,7 @@ a:hover {
 p {
 	color: #4d4d4d;
 }
-img {
+.column-1-project img {
 	width: 100%;
 	height: auto;
 }

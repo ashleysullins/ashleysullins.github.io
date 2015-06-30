@@ -1,6 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+
+   <script>
+      function pingPong () {
+      var givenNumber = parseInt(prompt("What number would you like me to ping-pong up to?"));
+        var number = givenNumber;
+        var listResult = "";
+        for (var i=1; i<=number; i++){
+            listResult += "<li>";
+            {
+              if (i%15 === 0) {
+                listResult += "Ping Pong";
+              }
+              else if (i%3 === 0) {
+                listResult += "Ping";
+              }
+              else if (i%5 === 0) {
+                listResult += "Pong";
+              }
+              else {
+                listResult += i;
+            }
+            listResult += "</li>"
+          }
+          document.getElementById('result').innerHTML = listResult;
+          }
+      }
+    </script>
+
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -23,10 +51,10 @@
       <div class="header">
         <h1 class="title">Ashley Sullins</h1>
       </div>
-      <div class="my-nav">
+      <div class="nav">
         <hr>
         <nav>
-          <ul class="my-nav">
+          <ul class="nav">
             <li><a href="/">Home</a></li>
             <li><a href="about.html">About</a></li>
             <li><a href="project.html">Projects</a></li>
@@ -36,18 +64,18 @@
          </nav> 
       </div>
 
-      <div class="column-1-project">
-        <h2>Projects</h2>
-        <br><img src="img/storedgehelphome.png"></br>
-        <br><img src="img/storedgehelpsubnav.png"></br>
+      <div class="column-1">
+        <h2>Ping Pong</h2>
+        <p>Play the ping pong game!</p>
+      
+         <a href="javascript:pingPong()">Want to play a game?</a>
       </div>
       <div class="column-2">
-        <h3>Information</h3>
-          <ul class="experience">
-            <li><p><b>Description:</b> This is a help site used to assist clients in learning more about how to use the software built by the company I work for.</p>
-            <li><p><b>My contribution:</b> I implemented the style for the site by customizing a responsive ZenDesk template using CSS and HTML. 
-            <li><p>Designed by Natasha Gasswint.<p>    
-         </ul>
+        <h3>Results</h3>
+        <p></p>
+      <ul class="results">
+        <b id='result'>None yet!</b>
+      </ul>
       </div>
     </div>
 
