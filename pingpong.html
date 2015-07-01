@@ -35,9 +35,10 @@
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <title>Ashley Sullins</title>
 
-    <!-- Bootstrap -->
     <link href="css/style.css" rel="stylesheet">
     <link href='http://fonts.googleapis.com/css?family=Poppins' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -51,10 +52,10 @@
       <div class="header">
         <h1 class="title">Ashley Sullins</h1>
       </div>
-      <div class="nav">
+      <div class="my-nav">
         <hr>
         <nav>
-          <ul class="nav">
+          <ul class="my-nav">
             <li><a href="/">Home</a></li>
             <li><a href="about.html">About</a></li>
             <li><a href="project.html">Projects</a></li>
@@ -68,7 +69,7 @@
         <h2>Ping Pong</h2>
         <p>Play the ping pong game!</p>
       
-         <a href="javascript:pingPong()">Want to play a game?</a>
+         <button class="btn btn-primary" onclick="pingPong()">Want to play a game?</button>
       </div>
       <div class="column-2">
         <h3>Results</h3>
@@ -79,9 +80,5 @@
       </div>
     </div>
 
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.min.js"></script>
   </body>
 </html>

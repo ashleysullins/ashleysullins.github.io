@@ -24,6 +24,16 @@ body{
 	height: auto;
 	}
 }
+@media all and (max-width: 420px) {
+	.column-1 img {
+	width: 75%;
+	height: auto;
+	}	
+	.social img {
+	width: auto;
+	height: auto;
+	}
+}
 .title {
 	padding: 20px;
 	font-size: 225%;
