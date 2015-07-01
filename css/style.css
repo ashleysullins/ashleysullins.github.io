@@ -15,6 +15,14 @@ body{
 	float: right;
 	width: 29.3680297%;
 	}
+	.column-1 img {
+	width: 100%;
+	height: auto;
+	}
+	.social img {
+	width: auto;
+	height: auto;
+	}
 }
 .title {
 	padding: 20px;
@@ -63,10 +71,6 @@ a:hover {
 }
 p {
 	color: #4d4d4d;
-}
-.column-1-project img {
-	width: 100%;
-	height: auto;
 }
 input::-webkit-input-placeholder, textarea::-webkit-input-placeholder { /* WebKit browsers */
     color:    #4d4d4d;
