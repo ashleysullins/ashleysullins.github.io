@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <title>Ashley Sullins</title>
-
     <link href="css/style.css" rel="stylesheet">
     <link href='http://fonts.googleapis.com/css?family=Poppins' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
@@ -20,51 +19,105 @@
     <![endif]-->
   </head>
   <body>
-    <div class="container">
-      <div class="header">
-        <h1 class="title">Ashley Sullins</h1>
-      </div>
-      <div class="my-nav">
-        <hr>
+    <div class="container-fluid">
+      <div class="navbar navbar-default navbar-fixed-top">
         <nav>
-          <ul class="my-nav">
-            <li><a href="/">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="project.html">Projects</a></li>
-            <li><a href="contact.html">Contact</a></li>
+          <ul class="nav nav-justified">
+            <li><a href="#welcome">Welcome</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#project">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
           </ul>
-          <hr>
          </nav> 
-      </div>
-
-      <div class="column-1">
-        <h2>Welcome</h2>
-        <p>Glad you're here. Feel free to browse around and learn more about my work experience and website projects by using the navigation above. You can also contact me if you have any additional questions. I look forward to hearing from you! </p>
-     
-          <div class="social"> 
-          <h2>Social</h2>
-          <a href="https://www.facebook.com/ashleydsullins" target="_blank"><img src="img/Facebook.svg" alt="img/Facebook.png"></a>
-          <a href="https://instagram.com/ashleycc1987" target="_blank"><img src="img/Instagram.svg" alt="img/Instagram.png"></a>
-          <a href="https://www.linkedin.com/in/ashleysullins" target="_blank"><img src="img/LinkedIn.svg" alt="img/LinkedIn.png"></a>
-          <a href="https://www.pinterest.com/mizashley0921/" target="_blank"> <img src="img/Pinterest.svg" alt="img/Pinterest.png"></a>
-          </div>
-
-      </div>
-      <div class="column-2">
-        <h3>Web development resources</h3>
-        <p>Here are a couple of sites that I've found helpful as I continue to learn about software development. Hopefully they will be beneficial for you as well.</p>
-      <ul class="resources">
-        <li><a href="http://getbootstrap.com/" target="_blank">Bootstrap</a></li>
-        <li><a href="http://www.codecademy.com/" target="_blank">Codecademy</a></li>
-        <li><a href="https://www.girldevelopit.com/" target="_blank">Girl Develop it!</a></li>
-        <li><a href="http://skillcrush.com/" target="_blank">Skillcrush</a></li>
-        <li><a href="https://www.khanacademy.org/" target="_blank">Khan Academy</a></li>
-        <li><a href="http://learnrubythehardway.org/" target="_blank">Learn Ruby The Hard Way</a></li>
-        <li><a href="http://cli.learncodethehardway.org/book/" target="_blank">Command Line Crash Course</a></li>
-        <li><a href="https://www.learnhowtoprogram.com/" target="_blank"> Learn How to Program</a></li>
-      </ul>
-      </div>
     </div>
 
+      <div class="area" id="1">
+        <h2>Welcome</h2>
+        <p>Glad you're here. Feel free to browse around and learn more about my work experience and website projects by using the navigation above. You can also contact me if you have any additional questions. I look forward to hearing from you! </p>
+      </div>
+      <div class="area" id="2">
+        <h2>About</h2>
+        <div class="row">
+          <div class="col-md-8">
+          <h4>Hi. I'm Ashley. Nice to meet ya.</h4>
+          <p>I've spent the last four years working at tech start ups in the Kansas City area, doing everything from operations to project management to quality assurance testing. During that time, I've been fortunate to work with awesome mentors who have taught me about software development. I wanted to expand my studies, which led me to Portland, where I studied Java, Javascript and Android development at <a href="http://www.epicodus.com" target="_blank">Epicodus</a> in 2015. I'm looking forward to putting my new skills to work back in KC. </p>
+          <p>I love working on small teams with passionate people who want to be the best. If that sounds like your team, feel free to <a href="#contact">contact me</a>. </p>
+        </div>
+        <div class="col-md-4">
+          <h4> Skills </h4>
+          <span class="skills-category"><p>Development</class></p>
+          <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Git</li>
+            <li>Command Line</li>
+            <li>Javascript</li>
+            <li>Android</li>
+          </ul>
+          <span class="skills-category"><p>Quality Assurance</class></p>
+            <ul>
+              <li>JUnit</li>
+              <li>Selenium</li>
+              <li>Manual Testing</li>
+            </ul>
+      </div>
+      </div>
+      <div class="area" id="3">
+        <h2>Projects</h2>
+          <div class="row">
+            <div class="col-md-4">
+              <img src="img/storedgehelphome.png" class="img-responsive">
+            </div>
+            <div class="col-md-4">
+              <img src="img/helpqueue.png" class="img-responsive">
+            </div>
+            <div class="col-md-4">
+              <img src="img/codeoverload.png" class="img-responsive">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-4">
+              <img src="img/tourguidepdx.png" class="img-responsive">
+            </div>
+            <div class="col-md-4">
+              <img src="img/funimages.png" class="img-responsive">
+            </div>
+          </div>
+        
+      </div>
+      <div class="area" id="4">
+        <h2>Be Social</h2>
+        <div class="row">
+          <div class="col-md-6">
+            <form id="form1" name="form1" class="wufoo topLabel page" accept-charset="UTF-8" autocomplete="off" enctype="multipart/form-data" method="post" novalidate action="https://asullins.wufoo.com/forms/z1wsul1d1xwciuq/#public">
+              <div class="form-group">
+              <input id="Field1" name="Field1" type="text" class="field text fn form-control" value="" placeholder="First Name" tabindex="1"       />
+              </div>
+              <div class="form-group">
+              <input id="Field2" name="Field2" type="text" class="field text ln form-control" value="" placeholder="Last Name" size="14" tabindex="2" />
+              </div>
+              <div class="form-group">
+              <input id="Field15" name="Field15" type="email" spellcheck="false" class="field text medium form-control" value="" placeholder="Email Address" maxlength="255" tabindex="3"       />
+              </div>
+              <div class="form-group">
+              <textarea id="Field16" name="Field16" class="field textarea large form-control" value="" placeholder="" spellcheck="true" rows="10" cols="50" tabindex="4"></textarea>
+              </div>
+            <div>
+            <input id="saveForm" name="saveForm" class="btTxt submit btn btn-default" type="submit" value="Submit"/>
+            <input type="hidden" id="idstamp" name="idstamp" value="oNGSnK+vX2IZ9BLW7/h3+8RtOnTHYm54yStTOH+DiGE=" />
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="social"> 
+              <a href="https://www.github.com/ashleysullins" target="_blank"><img src="img/Github.svg" alt="img/Github.png"></a>
+              <a href="https://www.linkedin.com/in/ashleysullins" target="_blank"><img src="img/LinkedIn.svg" alt="img/LinkedIn.png"></a>
+              <a href="https://www.facebook.com/ashleydsullins" target="_blank"><img src="img/Facebook.svg" alt="img/Facebook.png"></a>
+              <a href="https://www.pinterest.com/mizashley0921/" target="_blank"> <img src="img/Pinterest.svg" alt="img/Pinterest.png"></a>
+            </div>
+        </div>
+      </div>
+      <div class="footer">
+
+    </div>
   </body>
 </html>

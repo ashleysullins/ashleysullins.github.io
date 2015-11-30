@@ -2,63 +2,11 @@ body{
 	font-family: 'Poppins', sans-serif;
 	font-size: 100%;
 }
-@media all and (min-width: 420px) {
-	.container {
-		max-width: 75%;
-		margin: auto;
-	}
-	.column-1 {
-	float: left;
-	width: 63.197026%;
-	}
-	.column-2 {
-	float: right;
-	width: 29.3680297%;
-	}
-	.column-1 img {
-	width: 100%;
-	height: auto;
-	}
-	.social img {
-	width: auto;
-	height: auto;
-	}
-}
-@media all and (max-width: 420px) {
-	.column-1 img {
-	width: 75%;
-	height: auto;
-	}	
-	.social img {
-	width: auto;
-	height: auto;
-	}
-}
-.title {
-	padding: 20px;
-	font-size: 225%;
-}
-.header {
-	background-color: #cccccc;
-}
+
 .nav {
 	list-style: none;
 	padding: 0;
 	margin: 0;
-}
-.my-nav li {
-	position: relative;
-	display: inline;
-	padding: 20px;
-}
-.my-nav a {
-	text-decoration: none;
-	font-size: 150%;
-	color: #00336d;
-}
-.my-nav a:hover {
-		text-decoration: none;
-		color: #f0f0f0;
 }
 a {
  	text-decoration: none;
@@ -67,17 +15,6 @@ a {
 a:hover {
 	text-decoration: underline;
 	color: #00336d;
-}
-.resources {
-	list-style-type: square;
-	color: #d3d3d3;
-}
-.experience p{
-	color: #4d4d4d;
-}
-.experience li{
-	list-style-type: square;
-	color: #d3d3d3;
 }
 p {
 	color: #4d4d4d;
