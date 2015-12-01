@@ -1,7 +1,5 @@
 # ashleysullins.github.io
 
-##### Your guide for all things Portland, 11/20/15
-
 ## Description
 
 Personal portfolio.
