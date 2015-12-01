@@ -18,6 +18,7 @@ $(document).ready(function() {
             openEffect  : 'none',
             closeEffect : 'none'
           });
+
    // Insert Responsive Sidebar Icon
     $('<div class="responsive-nav-icon" />').appendTo('.section-one');
     $('<div class="responsive-nav-close" />').appendTo('nav');
@@ -38,4 +39,5 @@ $(document).ready(function() {
     $('#overlay').hide();
     return false;
     });
+    
 });
