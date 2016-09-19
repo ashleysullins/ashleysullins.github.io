@@ -3,7 +3,11 @@ $(document).ready(function() {
     $('*[class^="prlx"]').each(function(r){
       var pos = $(this).offset().top;
       var scrolled = $(window).scrollTop();
-        $('*[class^="prlx"]').css('top', -(scrolled * 0.5) + 'px');     
+        $('*[class^="prlx"]').css('top', -(scrolled * 0.5) + 'px');
+        $('nav').removeClass('slide-in');
+        $('#overlay').hide();
+        $('html').css("overflow", "auto");
+        return false;
       });
   });
 
@@ -39,5 +43,5 @@ $(document).ready(function() {
     $('#overlay').hide();
     return false;
     });
-    
+
 });
